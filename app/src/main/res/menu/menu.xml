@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"/>
+    <item
+        android:title="News"
+        android:id="@+id/news"/>
+    <item
+        android:title="Weather"
+        android:id="@+id/weather"
+        android:icon="@drawable/sun"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="FeedBack"
+        android:id="@+id/feedback"/>
+    <item
+        android:title="HelpLine"
+        android:id="@+id/helpline"/>
+</menu>
